@@ -12,8 +12,8 @@ A React-based web application that allows to play Memory Game.
 ## Installation and Setup
 
 1. **Clone the repository**
-git clone https://github.com/yourusername/student-assignment-system.git
-cd student-assignment-system
+git clone https://github.com/Mitesh-Chaudhari/memory-game.git
+cd memory-game
 
 2. **Install dependencies**
    npm install
