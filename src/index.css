@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 0.3s ease;
+  background-color: bisque;
+  border: 1px solid red;
+  margin-bottom: 10px;
+}
+
+.card.flipped{
+  transform: rotateY(180deg);
+}
+.card.matched{
+  opacity: 0.5;
+  pointer-events: none;
+}
+.card .front{
+  transform: rotateY(180deg);
+
+}
+.card .back{
+  background-color: black;
+}
